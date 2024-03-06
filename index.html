@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./java.js">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <header>
+            <img class="logo" src="./img/Group 7 (1).png" alt="logo alura">
+      </header>
+      <main class="main">
+            <section>
+               <textarea class="area_text"   cols="41" rows="4" placeholder="Digite sua mensagem aqui"></textarea>
+              <div class="informacao">
+                  <p > Atençao: apenas letras minusculas e sem acentos </p>
+             </div>
+               <div class="botao">
+              <button class="botao_criptografar" onclick="btnEncriptar()" >Criptografar</button>
+              <button class="botao_descriptografar" onclick="btnDesincriptar()">Descriptografar</button>
+               </div>
+          </section>
+          <section>
+              <div> 
+              <textarea  class="mensagem" id="texto" cols="20" rows="9" ></textarea>
+              <button class="botao_copiar" onclick="btncopiar()"> Copiar</button>
+              </div>
+          </section>  
+          
+     </main>
+     <footer class="rodape" >Igormdev</footer>
+    <script src="./java.js"></script>
+</body>
+</html>
